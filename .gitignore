@@ -1,0 +1,13 @@
+# Bundled upstream repos that publish no license: they stay in your local copy of the kit but are not
+# redistributed here. A clone of this repo downloads them from GitHub at the pinned commit instead.
+payload/archives/remotion-dev__skills@*.zip
+payload/archives/iart-ai__generative-illustration-skills@*.zip
+
+# build-bundle.ps1 leftovers
+payload/archives/*.partial
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

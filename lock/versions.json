@@ -1,0 +1,230 @@
+{
+  "created": "2026-10-29",
+  "updated": "2026-10-29",
+  "createdOn": "Windows 10, Node 26.13.0, Python 3.10.0",
+  "reelmimic": {
+    "repo": "edenfunf/reelmimic",
+    "commit": "1be183e593fbdb52734ce49a75d65c924f3b925a"
+  },
+  "skillPacks": [
+    {
+      "repo": "remotion-dev/skills",
+      "commit": "30d4553ecd46fbc5212fd0ff006ae43af522158b",
+      "skills": [
+        "remotion-best-practices",
+        "remotion-captions",
+        "remotion-create",
+        "remotion-docs",
+        "remotion-interactivity",
+        "remotion-maps",
+        "remotion-markup",
+        "remotion-multimedia",
+        "remotion-render",
+        "remotion-saas",
+        "remotion-studio",
+        "remotion-upgrade"
+      ]
+    },
+    {
+      "repo": "iart-ai/ad-video-skills",
+      "commit": "0de0f2a1c1f42a98103fc0ec436509276428372c",
+      "skills": [
+        "ad-creative-video",
+        "launch-video",
+        "testimonial-video"
+      ],
+      "sharedScripts": true
+    },
+    {
+      "repo": "iart-ai/b-roll-skills",
+      "commit": "a51e34b0a8def533759373733bde1869c21075fb",
+      "skills": [
+        "talking-head-b-roll"
+      ],
+      "sharedScripts": false
+    },
+    {
+      "repo": "iart-ai/data-animation-skills",
+      "commit": "8ce2709c3992490251e8a991535b1945f01c6865",
+      "skills": [
+        "animated-infographic",
+        "chart-animation",
+        "presentation-video"
+      ],
+      "sharedScripts": true
+    },
+    {
+      "repo": "iart-ai/ecommerce-video-skills",
+      "commit": "2bd0dd19c9b2df5230f5d8f7453861b9681e49b4",
+      "skills": [
+        "photo-slideshow",
+        "product-demo-video",
+        "promo-video"
+      ],
+      "sharedScripts": true
+    },
+    {
+      "repo": "iart-ai/explainer-video-skills",
+      "commit": "3e2d411b725d9a72939cf8e5eb81579e751373e7",
+      "skills": [
+        "diagram-animation",
+        "explainer-video",
+        "isometric-animation",
+        "whiteboard-animation",
+        "wrapped-video"
+      ],
+      "sharedScripts": true
+    },
+    {
+      "repo": "iart-ai/freelance-motion-skills",
+      "commit": "d85c2b484693d0387333c778d9c95230fa1856ce",
+      "skills": [
+        "brand-motion-guidelines",
+        "client-revisions",
+        "creative-brief",
+        "motion-pricing",
+        "video-delivery-specs"
+      ],
+      "sharedScripts": true
+    },
+    {
+      "repo": "iart-ai/generative-illustration-skills",
+      "commit": "e7d62437c875fc8ad5eff6e90fe0e25b30e43933",
+      "skills": [
+        "generative-illustration"
+      ],
+      "sharedScripts": false
+    },
+    {
+      "repo": "iart-ai/javascript-animation-skills",
+      "commit": "f7d0882a313249cbd43f0e4e9e209b1622870253",
+      "skills": [
+        "javascript-animation",
+        "soundtrack"
+      ],
+      "sharedScripts": false
+    },
+    {
+      "repo": "iart-ai/kinetic-typography-skills",
+      "commit": "fccc94bd325d824235ee9e715e65abde57b6513a",
+      "skills": [
+        "kinetic-typography"
+      ],
+      "sharedScripts": true
+    },
+    {
+      "repo": "iart-ai/lower-thirds-skills",
+      "commit": "aa8ef7ed9fa59d0a79fc57701e493cfd8197b5d8",
+      "skills": [
+        "lower-thirds"
+      ],
+      "sharedScripts": false
+    },
+    {
+      "repo": "iart-ai/manim-skills",
+      "commit": "a15833c44de5108a3ee68f178a1fca126aa7c6d8",
+      "skills": [
+        "manim"
+      ],
+      "sharedScripts": true
+    },
+    {
+      "repo": "iart-ai/map-animation-skills",
+      "commit": "390ca98bbcf2ea88a430a69c0dcbf423e43d075d",
+      "skills": [
+        "map-animation"
+      ],
+      "sharedScripts": true
+    },
+    {
+      "repo": "iart-ai/motion-design-skills",
+      "commit": "3c129f769d90a1328c209c386492333c9ac62312",
+      "skills": [
+        "after-effects",
+        "animation-principles",
+        "beat-sync-editing",
+        "color-motion",
+        "logo-animation",
+        "motion-art-direction",
+        "motion-background",
+        "remotion-video",
+        "shot-composition"
+      ],
+      "sharedScripts": true
+    },
+    {
+      "repo": "iart-ai/talking-head-skills",
+      "commit": "a315032ccffa94cda56a82fa306237250d3dd1bf",
+      "skills": [
+        "talking-head"
+      ],
+      "sharedScripts": false
+    },
+    {
+      "repo": "iart-ai/text-message-video-skills",
+      "commit": "3a800e1e9b9635fa196a07b0143c80f7e9648558",
+      "skills": [
+        "text-message-animation"
+      ],
+      "sharedScripts": true
+    },
+    {
+      "repo": "iart-ai/tiktok-video-skills",
+      "commit": "2a775336b5a638cbf8a61dbd785f9a1b649be016",
+      "skills": [
+        "caption-animation",
+        "countdown-video",
+        "short-form-video"
+      ],
+      "sharedScripts": true
+    },
+    {
+      "repo": "iart-ai/web-animation-skills",
+      "commit": "b6dba3eb759726845a44163ff0bad70dd9e7fbb6",
+      "skills": [
+        "60fps-animation",
+        "accessible-animation",
+        "ascii-animation",
+        "glassmorphism",
+        "gsap-web",
+        "lottie-animation",
+        "micro-interaction",
+        "page-transition-animation",
+        "svg-animation"
+      ],
+      "sharedScripts": true
+    },
+    {
+      "repo": "iart-ai/webgl-animation-skills",
+      "commit": "50697d659fbf70152f48f9f8aadf1efe78bbdde1",
+      "skills": [
+        "particle-system",
+        "shader-glsl",
+        "threejs-animation"
+      ],
+      "sharedScripts": true
+    },
+    {
+      "repo": "iart-ai/youtube-video-skills",
+      "commit": "f3df381d65abe5078f5ed410bbc3ed72e7cb92bd",
+      "skills": [
+        "audiogram",
+        "youtube-intro-outro"
+      ],
+      "sharedScripts": true
+    },
+    {
+      "repo": "wuwangzhang1216/DirectorSKILL",
+      "commit": "c65ae0d14457053efb1e354c7e7f7e120d97fad1",
+      "skills": [
+        "cinematic-director"
+      ],
+      "include": [
+        "SKILL.md",
+        "LICENSE",
+        "references",
+        "assets"
+      ]
+    }
+  ]
+}

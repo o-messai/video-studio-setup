@@ -1,0 +1,8 @@
+# Local setup
+
+- Python 套件裝在這個資料夾的 `.venv`：文件或 skill 裡寫 `python` 的地方，一律改用 `{{VENV_PY}}`（不要用全域的 Python，它沒有這些套件）。
+- Python packages live in this folder's `.venv`: wherever docs or skills say `python`, run `{{VENV_PY}}` instead of the global Python.
+- 動畫函式庫（anime.js、GSAP、three.js、Remotion、Motion Canvas）裝在根目錄的 `node_modules`，`projects/` 底下的專案可以直接 import。
+- Animation libraries (anime.js, GSAP, three.js, Remotion, Motion Canvas) are installed in the root `node_modules`, so projects under `projects/` can import them directly.
+- iart motion skills 的 `scripts/*.sh` 是 bash 腳本；沒有 bash（Windows 未裝 Git for Windows）時，直接用 `ffmpeg`/`ffprobe` 做同樣的檢查（抽影格、用 `tile` 濾鏡拼接、檢查 MP4 規格）。
+- The iart motion skills' `scripts/*.sh` helpers are bash. Without bash (Windows with no Git for Windows), do the same checks directly with `ffmpeg`/`ffprobe`: extract frames, tile them with the `tile` filter, and probe the MP4's resolution/codec/fps/duration.

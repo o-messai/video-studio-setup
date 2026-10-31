@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="260" viewBox="0 0 900 260" role="img" aria-label="Video Studio — turn any AI agent into a video editor">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="900" y2="260" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0b0d14"/>
+      <stop offset="1" stop-color="#11141f"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="300" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7aa2ff"/>
+      <stop offset="0.5" stop-color="#e8ecff"/>
+      <stop offset="1" stop-color="#7aa2ff"/>
+      <animate attributeName="x1" values="-300;900" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="0;1200" dur="4s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="900" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5b8cff"/>
+      <stop offset="0.5" stop-color="#9f7aff"/>
+      <stop offset="1" stop-color="#ff7ab8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- background -->
+  <rect width="900" height="260" rx="14" fill="url(#bg)"/>
+  <rect x="0.5" y="0.5" width="899" height="259" rx="14" fill="none" stroke="#2a3047" stroke-width="1"/>
+
+  <!-- film strip, top -->
+  <g fill="#1d2335">
+    <rect x="26" y="22" width="18" height="12" rx="2"><animate attributeName="opacity" values="1;0.35;1" dur="2.4s" begin="0s" repeatCount="indefinite"/></rect>
+    <rect x="54" y="22" width="18" height="12" rx="2"><animate attributeName="opacity" values="1;0.35;1" dur="2.4s" begin="0.3s" repeatCount="indefinite"/></rect>
+    <rect x="82" y="22" width="18" height="12" rx="2"><animate attributeName="opacity" values="1;0.35;1" dur="2.4s" begin="0.6s" repeatCount="indefinite"/></rect>
+    <rect x="110" y="22" width="18" height="12" rx="2"><animate attributeName="opacity" values="1;0.35;1" dur="2.4s" begin="0.9s" repeatCount="indefinite"/></rect>
+    <rect x="138" y="22" width="18" height="12" rx="2"><animate attributeName="opacity" values="1;0.35;1" dur="2.4s" begin="1.2s" repeatCount="indefinite"/></rect>
+  </g>
+
+  <!-- REC dot -->
+  <g>
+    <circle cx="836" cy="32" r="7" fill="#ff4d5e">
+      <animate attributeName="opacity" values="1;0.15;1" dur="1.6s" repeatCount="indefinite"/>
+    </circle>
+    <text x="852" y="37" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#8a91a8">REC</text>
+  </g>
+
+  <!-- title -->
+  <text x="450" y="112" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="54" font-weight="800" letter-spacing="4" fill="url(#shine)">VIDEO STUDIO</text>
+
+  <!-- subtitle -->
+  <text x="450" y="148" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" fill="#aab3cc">One repo turns your AI agent into a full video editor</text>
+
+  <!-- cycling agent names -->
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" text-anchor="middle">
+    <text x="403" y="185" fill="#69718c">built for</text>
+    <g font-weight="700" fill="#cdd6f4">
+      <text x="486" y="185" opacity="0"><animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.04;0.16;0.2;1" dur="10s" repeatCount="indefinite"/>Claude</text>
+      <text x="486" y="185" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.2;0.24;0.36;0.4;1" dur="10s" repeatCount="indefinite"/>ChatGPT</text>
+      <text x="486" y="185" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.4;0.44;0.56;0.6;1" dur="10s" repeatCount="indefinite"/>Gemini</text>
+      <text x="486" y="185" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.6;0.64;0.76;0.8;1" dur="10s" repeatCount="indefinite"/>Grok</text>
+      <text x="486" y="185" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.8;0.84;0.96;1;1" dur="10s" repeatCount="indefinite"/>any agent</text>
+    </g>
+    <text x="593" y="185" fill="#69718c">&#183; 106 skills &#183; one command</text>
+  </g>
+
+  <!-- timeline with moving playhead -->
+  <g>
+    <rect x="26" y="222" width="848" height="6" rx="3" fill="#1d2335"/>
+    <rect x="26" y="222" width="848" height="6" rx="3" fill="url(#bar)" opacity="0.9">
+      <animate attributeName="width" values="0;848" dur="8s" repeatCount="indefinite"/>
+    </rect>
+    <g>
+      <rect x="-2" y="214" width="4" height="22" rx="2" fill="#e8ecff">
+        <animate attributeName="x" values="24;872" dur="8s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+    <!-- clip markers -->
+    <g fill="#39415e">
+      <rect x="180" y="219" width="2" height="12"/>
+      <rect x="340" y="219" width="2" height="12"/>
+      <rect x="520" y="219" width="2" height="12"/>
+      <rect x="700" y="219" width="2" height="12"/>
+    </g>
+  </g>
+</svg>
